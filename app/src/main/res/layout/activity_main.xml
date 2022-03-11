@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+<androidx.appcompat.widget.Toolbar
+    android:background="@color/colorOrens"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" >
+        <Button
+            android:layout_width="305dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Celana Olahraga Pria Pendek"
+            android:background="@drawable/rounded_putih"
+            android:textAllCaps="false"
+            android:textColor="#DC6C48"
+            android:drawableStart="@drawable/ic_cari"
+            android:drawableEnd="@drawable/ic_camera"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_trolley"
+                 />
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/ic_chat_sv" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gambarone"
+            android:layout_height="150dp" >
+        </LinearLayout>
+
+            <RelativeLayout
+
+                android:background="@drawable/rounded_putih2"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_pay"/>
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:layout_width="wrap_content"
+                    android:text=" | "
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#A19E9E"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:layout_height="match_parent" />
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_marginLeft="72dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_dollar"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="102dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="170dp"
+                    android:text=" Rp 16.000"
+                    android:textColor="@color/colorHitam"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorAbu"
+                    android:layout_marginLeft="102dp"
+                    android:layout_marginRight="160dp"
+                    android:layout_marginTop="40dp"
+                    android:textStyle="bold"
+                    android:text=" Isi Saldo ShoppePay"/>
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:layout_width="wrap_content"
+                    android:text=" | "
+                    android:layout_marginLeft="230dp"
+                    android:textColor="@color/colorAbu"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:layout_height="match_parent" />
+                <ImageButton
+                    android:layout_width="20dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_dollarbulat"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="279dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="2dp"
+                    android:text=" 5 Koin"
+                    android:textColor="@color/colorHitam"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorAbu"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="40dp"
+                    android:textStyle="bold"
+                    android:text=" Klaim Koin Disini"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_putih2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="120dp"
+                    android:text="Peduli Lindungi"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/peduli_lindungi"/>
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Pulsa, Tagihan, dan Hiburan"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_smartphone"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="139dp" />
+
+                <TextView
+                    android:layout_width="69dp"
+                    android:layout_height="33dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="225dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="110dp"
+                    android:text="Shoppe Supermarket"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_shopping_cart"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="236dp"/>
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="79dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="326dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="120dp"
+                    android:text="Shoppe Mall"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_handbag"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="332dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="GoMart"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_price_voucher"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="GoPulsa"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_gamepad"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="137dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="CheckIn"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/cod"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="239dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="335dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Lainnya"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorOrens"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="336dp" >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorOrens"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="5dp"
+                        android:drawableStart="@drawable/ic_spoon"
+                        android:drawableLeft="@drawable/ic_spoon" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:src="@drawable/p1"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/p2"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/p3"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/p4"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/flashsale" ></ImageView>
+            </LinearLayout>
+            
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:src="@drawable/slide5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+
+                        android:src="@drawable/slide2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+
+                        android:src="@drawable/slide3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"/>
+                    <ImageView
+
+                        android:src="@drawable/slide4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"/>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:background="@color/colorPutih" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="Rekomendasi"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Feed"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="203dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Shoppe Live"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text=" Notifikasi"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="390dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Saya"
+                    android:textColor="@color/colorAbu"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="@color/colorPutih"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_thumb"
+                    android:drawableLeft="@drawable/ic_thumb"/>
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="116dp"
+                    android:backgroundTint="@color/colorPutih"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_arisp"
+                    android:drawableLeft="@drawable/ic_arisp"/>
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="212dp"
+                    android:backgroundTint="@color/colorPutih"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_camera"
+                    android:drawableLeft="@drawable/ic_camera"/>
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="304dp"
+                    android:backgroundTint="@color/colorPutih"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_bell"
+                    android:drawableLeft="@drawable/ic_bell"/>
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="378dp"
+                    android:backgroundTint="@color/colorPutih"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
